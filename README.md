@@ -25,6 +25,8 @@ opencv-python == 4.5.3.56
 
 4、raw_weights.hdf5：初始训权重文件，成功加载后，将网络的特征提取部分冰冻起来，此部分不再训练。
 
+下载路径：https://blog.csdn.net/Twilight737?spm=1018.2226.3001.5343&type=download
+
 5、tiny_yolov1_model.py：tiny_yolov1模型，其特征提取backbone比yolov1简单很多，但在VOC2007数据集下仍有一定效果。
 
 6、yolo_loss.py：yolov1损失函数，对无目标物体置信度加权系数0.5，有目标物体置信度加权系数1，类别加权系数1，物体x、y、w、h坐标位置加权系数5。
