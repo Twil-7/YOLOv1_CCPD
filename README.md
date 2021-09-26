@@ -38,4 +38,4 @@ opencv-python == 4.5.3.56
 
 优化器：adam = Adam(lr=1e-4, amsgrad=True)，训练150个epoch，最佳val loss在16.25，后续达到瓶颈无法降低。
 
-YOLOv1最大的问题就在于，模型太难以训练，val loss难以降下去
+YOLOv1最大的问题就在于，模型太难以训练，val loss难以降下去。
